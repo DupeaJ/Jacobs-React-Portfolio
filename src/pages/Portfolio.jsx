@@ -6,7 +6,7 @@ import RareImage from "../assets/images/Rare.PNG";
 import TheeBibleImage from "../assets/images/TheeBible.PNG";
 import WeatherImage from "../assets/images/Weather.PNG";
 import ZenVestImage from "../assets/images/ZenVest.PNG";
-PNG
+
 const portfolioSections = [
     {
         backgroundImg: AutoHubImage,
