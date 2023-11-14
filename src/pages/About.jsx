@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import aboutImage from "../assets/images/about-me.jpg";
+import aboutImage from "../assets/images/about-me.JPG";
 
 export default function About() {
 	return (
