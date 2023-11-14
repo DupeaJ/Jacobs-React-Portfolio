@@ -1,10 +1,62 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-container {    
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%; 
+  position: fixed;
+  top: 0; /* ensures it sticks at the very top */
+  background-color: #ff0000a2; /* just an example, set the color you need */
+  z-index: 1000; /* ensures it stays above other content */
+}
+.nav-link.active {
+    /* your active link styling, for example: */
+    color: #1b0b75; /* Active link color */
+    text-decoration: underline;
+}
+#app-container {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
+#root {
+    flex-grow: 1; /* This ensures that the main content stretches to fill available space */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.nav-links {
+  font-size: 1.25em;
+  padding-right: 20px;
+    display: flex;
+    gap: 20px; 
+}
+
+.home-link {
+    text-decoration: none;
+    color: white; 
+}
+.nav-container.sticky {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* adds shadow for depth */
+}
 .logo {
   height: 6em;
   padding: 1.5em;
