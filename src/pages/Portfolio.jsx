@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "../components/Header";
-import AutoHubImage from "../assets/images/AutoHub.png";
-import CodingQuizImage from "../assets/images/Coding-Quiz.png";
-import RareImage from "../assets/images/Rare.png";
-import TheeBibleImage from "../assets/images/TheeBible.png";
-import WeatherImage from "../assets/images/Weather.png";
-import ZenVestImage from "../assets/images/ZenVest.png";
-
+import AutoHubImage from "../assets/images/AutoHub.PNG";
+import CodingQuizImage from "../assets/images/Coding-Quiz.PNG";
+import RareImage from "../assets/images/Rare.PNG";
+import TheeBibleImage from "../assets/images/TheeBible.PNG";
+import WeatherImage from "../assets/images/Weather.PNG";
+import ZenVestImage from "../assets/images/ZenVest.PNG";
+PNG
 const portfolioSections = [
     {
         backgroundImg: AutoHubImage,
