@@ -9,28 +9,28 @@ import ZenVestImage from "../assets/images/ZenVest.PNG";
 
 const portfolioSections = [
     {
-        backgroundImg: AutoHubImage,
-        githubLink: "https://github.com/DupeaJ/AutoHubWhenever",
-    },
-    {
-        backgroundImg: CodingQuizImage,
-        githubLink: "https://github.com/DupeaJ/jacob.dupea-coding-quiz",
+        backgroundImg: ZenVestImage,
+        githubLink: "https://github.com/manc1n1/zenvest",
     },
     {
         backgroundImg: RareImage,
         githubLink: "https://github.com/DupeaJ/Amazing-Weather-Data",
     },
     {
+        backgroundImg: AutoHubImage,
+        githubLink: "https://github.com/DupeaJ/AutoHubWhenever",
+    },
+    {
         backgroundImg: TheeBibleImage,
         githubLink: "https://github.com/DupeaJ/TheeBibleWriter",
     },
     {
-        backgroundImg: WeatherImage,
-        githubLink: "https://github.com/DupeaJ/RandomRecipe",
+        backgroundImg: CodingQuizImage,
+        githubLink: "https://github.com/DupeaJ/jacob.dupea-coding-quiz",
     },
     {
-        backgroundImg: ZenVestImage,
-        githubLink: "https://github.com/manc1n1/zenvest",
+        backgroundImg: WeatherImage,
+        githubLink: "https://github.com/DupeaJ/RandomRecipe",
     },
 ];
 
