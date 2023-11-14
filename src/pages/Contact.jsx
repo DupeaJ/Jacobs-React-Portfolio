@@ -12,6 +12,10 @@ export default function Contact() {
                 <Header header={'Contact Me'} />
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
+                        <label htmlFor="name">name:</label>
+                        <input type="name" id="name" name="name" required placeholder="Enter your Name" />
+                    </div>
+                    <div className="form-group">
                         <label htmlFor="email">Email:</label>
                         <input type="email" id="email" name="email" required placeholder="Enter your email" />
                     </div>

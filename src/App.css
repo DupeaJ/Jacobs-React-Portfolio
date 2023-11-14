@@ -6,6 +6,26 @@
   justify-content: center;
   align-items: center;
 }
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #791111;
+  height: 50px;
+}
+svg{
+  width: 45px;
+  height: 45px;
+  color: black;
+}
+.x-image{
+
+  width: 20px;
+  height: 25px;
+}
+.react-icons{
+      height: 2em;
+    width: 2em;
+}
 .nav-container {    
   padding-left: 10px;
   padding-right: 10px;
@@ -17,7 +37,7 @@
 }
 .nav-link.active {
     /* your active link styling, for example: */
-    color: #1b0b75; /* Active link color */
+    color: #000000; /* Active link color */
     text-decoration: underline;
 }
 #app-container {
@@ -49,7 +69,9 @@
     display: flex;
     gap: 20px; 
 }
-
+.nav-links a{
+  color: white;
+}
 .home-link {
     text-decoration: none;
     color: white; 
