@@ -7,9 +7,10 @@
   align-items: center;
 }
 footer{
+  z-index: 1000;
   display: flex;
   justify-content: center;
-  background-color: #791111;
+  background-color: #7911118c;
   height: 50px;
 }
 svg{
@@ -39,8 +40,7 @@ svg{
   z-index: 1000; /* ensures it stays above other content */
 }
 .nav-link.active {
-    /* your active link styling, for example: */
-    color: #000000; /* Active link color */
+    color: #1a1472; /* Active link color */
     text-decoration: underline;
 }
 #app-container {
@@ -77,7 +77,11 @@ svg{
 }
 .home-link {
     text-decoration: none;
-    color: white; 
+    color: rgb(0, 0, 0); 
+}
+.nav-links a:hover {
+    color: rgb(0, 0, 0); 
+    cursor: crosshair;
 }
 .nav-container.sticky {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* adds shadow for depth */
